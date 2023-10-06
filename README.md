@@ -44,7 +44,7 @@ sudo apt-get install -y build-essential git libftdi-dev libftdi1 doxygen python3
 
 The SDK also requires the `argcomplete` and `pyelftools` Python package. You can install them for the local user with:
 ~~~~~shell
-pip install --user argcomplete pyelftools
+pip install --user argcomplete pyelftools six
 ~~~~~
 Omit `--user` to install at system level instead, which will probably require admin rights.
 
